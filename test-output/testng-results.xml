@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="4" passed="4">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="16304" started-at="2021-01-28T16:38:50 CST" finished-at="2021-01-28T16:39:06 CST">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="16304" started-at="2021-01-28T16:38:50 CST" finished-at="2021-01-28T16:39:06 CST">
+      <class name="extendreports.LoginTest">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:extendreports.LoginTest@32464a14]" name="setUp" is-config="true" duration-ms="7442" started-at="2021-01-28T16:38:50 CST" finished-at="2021-01-28T16:38:57 CST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="loginTest()[pri:1, instance:extendreports.LoginTest@32464a14]" name="loginTest" duration-ms="4389" started-at="2021-01-28T16:38:57 CST" finished-at="2021-01-28T16:39:02 CST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginTest -->
+        <test-method status="PASS" signature="adminNameTest()[pri:2, instance:extendreports.LoginTest@32464a14]" name="adminNameTest" duration-ms="136" started-at="2021-01-28T16:39:02 CST" depends-on-methods="extendreports.LoginTest.loginTest" finished-at="2021-01-28T16:39:02 CST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- adminNameTest -->
+        <test-method status="PASS" signature="clickOnViewAllOrders()[pri:3, instance:extendreports.LoginTest@32464a14]" name="clickOnViewAllOrders" duration-ms="1143" started-at="2021-01-28T16:39:02 CST" depends-on-methods="extendreports.LoginTest.adminNameTest" finished-at="2021-01-28T16:39:03 CST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clickOnViewAllOrders -->
+        <test-method status="PASS" signature="logOutTest()[pri:4, instance:extendreports.LoginTest@32464a14]" name="logOutTest" duration-ms="2016" started-at="2021-01-28T16:39:03 CST" depends-on-methods="extendreports.LoginTest.loginTest" finished-at="2021-01-28T16:39:05 CST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logOutTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:extendreports.LoginTest@32464a14]" name="tearDown" is-config="true" duration-ms="725" started-at="2021-01-28T16:39:05 CST" finished-at="2021-01-28T16:39:06 CST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- extendreports.LoginTest -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>

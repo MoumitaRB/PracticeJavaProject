@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite thread-count="3" parallel="tests" name="Failed suite [Parameters Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="3" parallel="tests" name="InternetEx Test(failed)">
+    <parameter name="browser" value="ie"/>
+    <parameter name="url" value="https://opensource-demo.orangehrmlive.com/index.php/auth/login"/>
+    <classes>
+      <class name="Day25TestNG_Parameters.Parameterization">
+        <methods>
+          <include name="logoPresentTest"/>
+          <include name="setUp"/>
+          <include name="logintitleTest"/>
+          <include name="tearDown"/>
+          <include name="lauchingUrl"/>
+        </methods>
+      </class> <!-- Day25TestNG_Parameters.Parameterization -->
+    </classes>
+  </test> <!-- InternetEx Test(failed) -->
+  <test thread-count="3" parallel="tests" name="Firefox Test(failed)">
+    <parameter name="browser" value="firefox"/>
+    <parameter name="url" value="https://opensource-demo.orangehrmlive.com/index.php/auth/login"/>
+    <classes>
+      <class name="Day25TestNG_Parameters.Parameterization">
+        <methods>
+          <include name="logoPresentTest"/>
+          <include name="setUp"/>
+          <include name="logintitleTest"/>
+          <include name="tearDown"/>
+          <include name="lauchingUrl"/>
+        </methods>
+      </class> <!-- Day25TestNG_Parameters.Parameterization -->
+    </classes>
+  </test> <!-- Firefox Test(failed) -->
+  <test thread-count="3" parallel="tests" name="ChromeTest(failed)">
+    <parameter name="browser" value="chrome"/>
+    <parameter name="url" value="https://opensource-demo.orangehrmlive.com/index.php/auth/login"/>
+    <classes>
+      <class name="Day25TestNG_Parameters.Parameterization">
+        <methods>
+          <include name="logoPresentTest"/>
+          <include name="setUp"/>
+          <include name="logintitleTest"/>
+          <include name="tearDown"/>
+          <include name="lauchingUrl"/>
+        </methods>
+      </class> <!-- Day25TestNG_Parameters.Parameterization -->
+    </classes>
+  </test> <!-- ChromeTest(failed) -->
+</suite> <!-- Failed suite [Parameters Suite] -->

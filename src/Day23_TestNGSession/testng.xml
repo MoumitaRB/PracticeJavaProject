@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+<suite guice-stage="DEVELOPMENT" name="NopCommerce suite">
+
+  <test verbose="2" name="NopCommerce Automation test">
+  
+    <classes>
+      <class name="Day23_TestNGSession.NopCommerceLoginTest"/>
+      <class name="Day23_TestNGSession.First_Test"/>
+    </classes>
+    
+  </test> <!-- Default test -->
+  
+</suite> <!-- Default suite -->
+            
