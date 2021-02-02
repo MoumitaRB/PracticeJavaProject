@@ -34,5 +34,3 @@ public class SliderAction {
 }
 
 
-
-//https://jqueryui.com/slider/

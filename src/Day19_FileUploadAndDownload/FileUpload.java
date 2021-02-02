@@ -29,9 +29,7 @@ public class FileUpload {
 	}
 
 	public static void main(String[] args) {
-		//System.setProperty("webdriver.chrome.driver", "C:\\Users\\moumi\\Desktop\\ChromeDriver\\chromedriver.exe");
 		System.setProperty("webdriver.gecko.driver", "C:\\Work\\drivers\\geckodriver-v0.28.0-win64\\geckodriver.exe");
-		//driver=new ChromeDriver();
 		driver=new FirefoxDriver();
 		
 	    try {
