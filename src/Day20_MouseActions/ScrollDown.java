@@ -32,7 +32,7 @@ public class ScrollDown {
 //		js.executeScript("arguments[0].scrollIntoView();",ele );
 //		long value=(long)js.executeScript("return window.pageYOffset;");
 //		System.out.println(value);
-//		
+
 		//scroll down till the end
 		
 		js.executeScript("window.scrollBy(0,document.body.scrollHeight)");
