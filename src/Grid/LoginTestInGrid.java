@@ -19,7 +19,7 @@ public class LoginTestInGrid {
 	
 	void setUp() throws MalformedURLException
 	{  
-		String nodeURL=" http://192.168.50.140:4444/wd/hub";
+		String nodeURL=" http://192.168.50.141:4444/wd/hub";
 		DesiredCapabilities cap= DesiredCapabilities.chrome();
 		//cap.setBrowserName("chrome");
 		//cap.setPlatform(Platform.WIN10);

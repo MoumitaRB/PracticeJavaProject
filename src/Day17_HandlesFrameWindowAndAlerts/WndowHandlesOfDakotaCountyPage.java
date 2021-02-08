@@ -37,7 +37,7 @@ public class WndowHandlesOfDakotaCountyPage {
 			 driver.close();
 
 		 }
-		 else if(title.contains("Search Results for TITLE=smartest TITLE=kid TITLE=in TITLE=the TITLE=universe AUTHOR=Grabenstein, AUTHOR=Chris"))
+		 else if(title.contains("Search Results for TITLE"))
 		 {   
 			 
 			 driver.findElement(By.xpath("//input[@title='Apple Valley (Galaxie)']")).click();
