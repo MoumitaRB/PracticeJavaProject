@@ -6,7 +6,7 @@
 
   <test thread-count="5" name="ChromeTest">
   
-  <parameter name="browser"   value="msedge"/>
+  <parameter name="browser"   value="chrome"/>
   <parameter name ="url"    value="https://opensource-demo.orangehrmlive.com/index.php/auth/login"/>
   
     <classes>

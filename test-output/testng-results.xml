@@ -1,21 +1,37 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
+<testng-results skipped="0" failed="0" ignored="0" total="6" passed="6">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="8644" started-at="2021-02-04T20:40:48 CST" finished-at="2021-02-04T20:40:57 CST">
+  <suite name="Default suite" duration-ms="68" started-at="2021-03-23T09:45:56 CDT" finished-at="2021-03-23T09:45:56 CDT">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="8644" started-at="2021-02-04T20:40:48 CST" finished-at="2021-02-04T20:40:57 CST">
-      <class name="Grid.LoginTestInGrid">
-        <test-method status="PASS" signature="setUp()[pri:1, instance:Grid.LoginTestInGrid@2f490758]" name="setUp" duration-ms="3801" started-at="2021-02-04T20:40:48 CST" finished-at="2021-02-04T20:40:52 CST">
+    <test name="Default test" duration-ms="68" started-at="2021-03-23T09:45:56 CDT" finished-at="2021-03-23T09:45:56 CDT">
+      <class name="Day24TestNG.DependencyTest">
+        <test-method status="PASS" signature="openUrl()[pri:1, instance:Day24TestNG.DependencyTest@3bd94634]" name="openUrl" duration-ms="14" started-at="2021-03-23T09:45:56 CDT" finished-at="2021-03-23T09:45:56 CDT">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="login()[pri:2, instance:Grid.LoginTestInGrid@2f490758]" name="login" duration-ms="4813" started-at="2021-02-04T20:40:52 CST" finished-at="2021-02-04T20:40:57 CST">
+        </test-method> <!-- openUrl -->
+        <test-method status="PASS" signature="login()[pri:2, instance:Day24TestNG.DependencyTest@3bd94634]" name="login" duration-ms="2" started-at="2021-03-23T09:45:56 CDT" depends-on-methods="Day24TestNG.DependencyTest.openUrl" finished-at="2021-03-23T09:45:56 CDT">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- login -->
-      </class> <!-- Grid.LoginTestInGrid -->
+        <test-method status="PASS" signature="searchTest()[pri:3, instance:Day24TestNG.DependencyTest@3bd94634]" name="searchTest" duration-ms="1" started-at="2021-03-23T09:45:56 CDT" depends-on-methods="Day24TestNG.DependencyTest.login" finished-at="2021-03-23T09:45:56 CDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchTest -->
+        <test-method status="PASS" signature="advSearchTest()[pri:4, instance:Day24TestNG.DependencyTest@3bd94634]" name="advSearchTest" duration-ms="2" started-at="2021-03-23T09:45:56 CDT" depends-on-methods="Day24TestNG.DependencyTest.searchTest" finished-at="2021-03-23T09:45:56 CDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- advSearchTest -->
+        <test-method status="PASS" signature="rechargeTest()[pri:5, instance:Day24TestNG.DependencyTest@3bd94634]" name="rechargeTest" duration-ms="1" started-at="2021-03-23T09:45:56 CDT" depends-on-methods="Day24TestNG.DependencyTest.login, Day24TestNG.DependencyTest.searchTest" finished-at="2021-03-23T09:45:56 CDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- rechargeTest -->
+        <test-method status="PASS" signature="logoutTest()[pri:6, instance:Day24TestNG.DependencyTest@3bd94634]" name="logoutTest" duration-ms="1" started-at="2021-03-23T09:45:56 CDT" finished-at="2021-03-23T09:45:56 CDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logoutTest -->
+      </class> <!-- Day24TestNG.DependencyTest -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

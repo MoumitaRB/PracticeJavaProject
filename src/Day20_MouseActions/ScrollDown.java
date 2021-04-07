@@ -21,10 +21,10 @@ public class ScrollDown {
 		
 		//scroll down by pixel
 		
-//		js.executeScript("window.scrollBy(0,1500)","");
-//		Thread.sleep(3000);
-//		long value=(long)js.executeScript("return window.pageYOffset;");
-//		System.out.println(value);
+		js.executeScript("window.scrollBy(0,1500)","");
+		Thread.sleep(3000);
+		long value=(long)js.executeScript("return window.pageYOffset;");
+		System.out.println(value);
 		
 		//scroll down page till the number is visible
 		
@@ -35,15 +35,15 @@ public class ScrollDown {
 
 		//scroll down till the end
 		
-		js.executeScript("window.scrollBy(0,document.body.scrollHeight)");
-		long value=(long)js.executeScript("return window.pageYOffset;");
-		System.out.println(value);
-		
-		Thread.sleep(4000);
-		
-		js.executeScript("window.scrollBy(0,-document.body.scrollHeight)");
-		 value=(long)js.executeScript("return window.pageYOffset;");
-		System.out.println(value);
+//		js.executeScript("window.scrollBy(0,document.body.scrollHeight)");
+//		long value=(long)js.executeScript("return window.pageYOffset;");
+//		System.out.println(value);
+//		
+//		Thread.sleep(4000);
+//		
+//		js.executeScript("window.scrollBy(0,-document.body.scrollHeight)");
+//		 value=(long)js.executeScript("return window.pageYOffset;");
+//		System.out.println(value);
 		
 		}
 		catch(Exception e)

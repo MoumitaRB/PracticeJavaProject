@@ -19,13 +19,13 @@ public class LoginTestInGrid {
 	
 	void setUp() throws MalformedURLException
 	{  
-		String nodeURL=" http://192.168.50.141:4444/wd/hub";
+		String nodeURL="http://192.168.50.141:4444/wd/hub";
 		DesiredCapabilities cap= DesiredCapabilities.chrome();
 		//cap.setBrowserName("chrome");
 		//cap.setPlatform(Platform.WIN10);
 		//cap.setVersion("81");
-		//ChromeOptions options=new ChromeOptions();
-		System.setProperty("webdriver.chrome.driver", "C:\\Work\\drivers\\chromedriver_win32\\chromedriver.exe");
+		ChromeOptions options=new ChromeOptions();
+		//System.setProperty("webdriver.chrome.driver", "C:\\Work\\drivers\\chromedriver_win32\\chromedriver.exe");
 	    driver=new RemoteWebDriver(new URL(nodeURL),cap);
 	}
 	
